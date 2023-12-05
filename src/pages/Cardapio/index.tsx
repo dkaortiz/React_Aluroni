@@ -4,7 +4,7 @@ export default function Cardapio(){
     return(
         <main>
             <nav className={styles.menu}>
-                <img src='../../assets/logo.svg' alt='Logo do aluroni' />
+                <img src='../../assets/logo.svg' alt='Logo Aluroni' />
             </nav>
         </main>
     )
