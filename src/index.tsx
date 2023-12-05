@@ -1,4 +1,5 @@
 import React from 'react';
+import 'normalize.css'; //normalize, resete css terminal npm install normalize.css
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import Cardapio from './pages/Cardapio';
