@@ -1,10 +1,11 @@
 import styles from './Cardapio.module.scss'; //importar estilo como objeto
+import {ReactComponent as Logo} from '../../assets/logo.svg';
 
 export default function Cardapio(){
     return(
         <main>
             <nav className={styles.menu}>
-                <img src='../../assets/logo.svg' alt='Logo Aluroni' />
+               <Logo />
             </nav>
         </main>
     )
