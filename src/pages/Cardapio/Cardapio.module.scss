@@ -1,3 +1,22 @@
+@import 'styles/variaveis'; //não precisa colocar nome com _ como esta, e nem extensão, por causa do arquivo tsconfig.json "baseUrl": "src"
+
 .menu{
-    padding: 20px 250px;
+    padding: 20px $padding_horizontal;
+}
+
+.header{ //O & é usado como uma referência para o seletor pai, que neste caso é .header
+    background-image: url('/assets/Cardapio/header.png');
+    background-size: cover; //pegar o tamanho todo do container
+    background-repeat: no-repeat;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    padding: 0 $padding_horizontal;
+    
+    &__text{
+        color:white;
+        font-size: 5rem;
+        min-width: 400px;
+        width: 40%;
+    }
 }
