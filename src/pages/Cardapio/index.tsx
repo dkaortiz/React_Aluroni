@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import Buscador from './Buscador';
+import Buscador from "./Buscador";
 import styles from './Cardapio.module.scss'; //importar estilo como objeto
 import {ReactComponent as Logo} from 'assets/logo.svg';
 
